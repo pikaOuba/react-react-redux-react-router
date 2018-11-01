@@ -1,6 +1,5 @@
 import React from 'react'
 import BaseComponent from '../common/BaseComponent'
-import { Button, Page } from 'react-weui'
 import './UserSetting.css'
 import {getDefault} from '../../stores/user'
 import {PropTypes} from 'prop-types'
@@ -21,9 +20,7 @@ class UserSettings extends BaseComponent {
     render() {
         console.log('看看主数据', this.props)
         return (
-        <Page>
-            <Button>Hello World! UserSettings</Button>
-        </Page>
+        <div>Hello World! UserSettings</div>
         )
     }
 }

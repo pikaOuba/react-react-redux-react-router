@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css'
 import BaseComponent from '../common/BaseComponent'
-import { Page,Button } from 'react-weui'
 import {PropTypes} from 'prop-types'
 class App extends BaseComponent {
 
@@ -20,10 +19,7 @@ class App extends BaseComponent {
 
   render() {
     return (
-     <Page>
-       <Button onClick={this.handleGo.bind(this,'/user/setting')}>用户修改</Button>
-       <Button onClick={this.handleGo.bind(this,'/user/notice')}>用户信息通知</Button>
-     </Page>
+     <div>122</div>
     )
   }
 }
