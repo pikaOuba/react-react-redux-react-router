@@ -1,10 +1,9 @@
-import React from 'react'
-import BaseComponent from '../common/BaseComponent'
+import React, { Component } from 'react'
 import './UserSetting.css'
 import {getDefault} from '../../stores/user'
 import {PropTypes} from 'prop-types'
 import {connect} from 'react-redux'
-class UserSettings extends BaseComponent {
+class UserSettings extends Component {
 
     static propTypes = {
         dispatch: PropTypes.func,

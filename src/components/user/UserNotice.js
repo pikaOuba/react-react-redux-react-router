@@ -1,8 +1,7 @@
-import React from 'react'
-import BaseComponent from '../common/BaseComponent'
+import React, { Component } from 'react'
 import './UserNotice.css'
 
-class UserNotice extends BaseComponent {
+class UserNotice extends Component {
   render() {
     return (
       <div>welcome!</div>
